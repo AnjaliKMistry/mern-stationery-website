@@ -124,8 +124,7 @@ mystationery/
 ```
 ## Author
 
-**Anjali Mistry**
-B.E – Computer Engineering
-LJ University
-
-GitHub: [AnjaliKMistry](https://github.com/AnjaliKMistry)
+**Anjali Mistry**  
+B.Tech – Computer Engineering    
+LJ University    
+[GitHub](https://github.com/AnjaliKMistry)
