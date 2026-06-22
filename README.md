@@ -90,8 +90,6 @@ Open http://localhost:3000
 
 ## Screenshots
 
-## Screenshots
-
 ### Home Page
 
 ![Home](screenshots/home.png)
@@ -124,3 +122,10 @@ mystationery/
         ├── context/       # CartContext
         └── pages/         # All page components
 ```
+## Author
+
+**Anjali Mistry**
+B.E – Computer Engineering
+LJ University
+
+GitHub: [AnjaliKMistry](https://github.com/AnjaliKMistry)
