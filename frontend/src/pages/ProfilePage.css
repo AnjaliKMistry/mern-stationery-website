@@ -1,0 +1,88 @@
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+}
+
+.profile-card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-page {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.profile-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.my-orders h3 {
+  color: #2c3e50;
+  margin-bottom: 16px;
+}
+
+.no-orders {
+  color: #777;
+}
+
+.order-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.order-status {
+  color: #27ae60;
+}
+
+.order-items {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.order-items li {
+  padding: 4px 0;
+}
+
+.order-total {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.order-address {
+  color: #666;
+  font-size: 14px;
+  margin-top: 8px;
+}

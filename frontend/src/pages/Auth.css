@@ -1,0 +1,95 @@
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.auth-container input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+.auth-container button {
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #219150;
+}
+
+.message {
+  margin-top: 10px;
+  color: #555;
+  text-align: center;
+  font-weight: 500;
+}
+
+.strength-bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 4px;
+  height: 6px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.strength-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.strength-bar.weak .strength-fill {
+  width: 33%;
+  background: #e74c3c;
+}
+
+.strength-bar.medium .strength-fill {
+  width: 66%;
+  background: #f39c12;
+}
+
+.strength-bar.strong .strength-fill {
+  width: 100%;
+  background: #27ae60;
+}
+
+.strength-label {
+  font-size: 12px;
+  margin-top: 6px;
+  display: block;
+  font-weight: 500;
+  color: #555;
+}

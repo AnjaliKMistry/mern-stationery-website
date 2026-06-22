@@ -1,0 +1,39 @@
+.footer-container {
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin-top: 40px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.footer-about,
+.footer-contact {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color: #777;
+}
