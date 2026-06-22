@@ -1,4 +1,5 @@
 # MyStationery 🛒
+
 ### Online Stationary Shop — MERN Stack
 
 A full-stack e-commerce web application built with the MERN stack for purchasing stationary products online. Features complete user authentication, shopping cart, checkout with order placement, and a secure role-based admin panel.
@@ -8,6 +9,7 @@ A full-stack e-commerce web application built with the MERN stack for purchasing
 ## Features
 
 ### 👤 User Features
+
 - Register & login with JWT authentication
 - Password strength indicator on signup
 - Browse all products in a clean responsive grid
@@ -16,12 +18,14 @@ A full-stack e-commerce web application built with the MERN stack for purchasing
 - View past orders in profile
 
 ### 🔐 Admin Features
+
 - Separate admin role — hidden from regular users
 - Add, edit, and delete products with image upload
 - View all customer orders across all users
 - Update order status: Placed → Shipped → Delivered
 
 ### ⚡ Tech Highlights
+
 - Role-based access control (JWT with role in payload)
 - Persistent cart saved to MongoDB (survives page refresh)
 - Fully responsive — mobile, tablet, desktop
@@ -31,29 +35,32 @@ A full-stack e-commerce web application built with the MERN stack for purchasing
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
+| Layer    | Technology                                 |
+| -------- | ------------------------------------------ |
 | Frontend | React.js, React Router, Axios, Context API |
-| Backend | Node.js, Express.js |
-| Database | MongoDB with Mongoose |
-| Auth | JWT (JSON Web Tokens), bcrypt |
-| Styling | Pure CSS, responsive media queries |
+| Backend  | Node.js, Express.js                        |
+| Database | MongoDB with Mongoose                      |
+| Auth     | JWT (JSON Web Tokens), bcrypt              |
+| Styling  | Pure CSS, responsive media queries         |
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js v16+
 - MongoDB running locally on mongodb://127.0.0.1:27017
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/mystationery.git
 cd mystationery
 ```
 
 ### 2. Backend setup
+
 ```bash
 cd backend
 npm install
@@ -61,6 +68,7 @@ npm start
 ```
 
 ### 3. Frontend setup (new terminal)
+
 ```bash
 cd frontend
 npm install
@@ -73,16 +81,28 @@ Open http://localhost:3000
 
 ## Login Credentials
 
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@mystationery.com | Admin@123 |
-| User | Register via Signup page | — |
+| Role  | Email                    | Password  |
+| ----- | ------------------------ | --------- |
+| Admin | admin@mystationery.com   | Admin@123 |
+| User  | Register via Signup page | —         |
 
 ---
 
 ## Screenshots
 
-<!-- Add screenshots here -->
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### All Products
+
+![Products](screenshots/products.png)
+
+### Admin Panel
+
+![Admin](screenshots/admin.png)
 
 ---
 
